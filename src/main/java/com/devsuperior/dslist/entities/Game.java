@@ -22,7 +22,11 @@ public class Game {
     private String platforms;
     private Double score; // ele não colocou esse na primeira aula
     private String imgUrl;
+
+    @Column(columnDefinition = "TEXT")
     private String shortDescription;
+
+    @Column(columnDefinition = "TEXT")
     private String longDescription;
 
     public Game() {
