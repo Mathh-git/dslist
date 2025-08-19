@@ -40,5 +40,4 @@ public class GameMinDTO { // classe com menos dados, que serão enviados ás req
 	public String getShortDescription() {
 		return shortDescription;
 	}
-
 }
